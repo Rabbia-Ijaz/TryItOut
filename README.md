@@ -3,17 +3,13 @@
 TextureMod is the feature where the user provides a Source image and a Pattern image and the model maps the pattern on the Source image.
 
 #### 5 classes
-User
-Data
-PreProcessing
-TextureMod
-Database
+User, Data, PreProcessing, TextureMod, Database
 
-*User class is the dummy class right now and will be used when we will connect it with the front-end.
-*Data class takes links of Source and Pattern images and returns the numpy arrays of colored and gray scale images of Source and Pattern
-*PreProcessing class takes the grayscale image of Source and apply threshold on it and returns the results 
-*Database is the dummy class for saving the results
-*TextureMod has multiple functions such as Blend(), Pattern(), KMeansAlgo(), FinalDetails(), secondMin() and firstMin()
+#####User class is the dummy class right now and will be used when we will connect it with the front-end.
+#####Data class takes links of Source and Pattern images and returns the numpy arrays of colored and gray scale images of Source and Pattern
+#####PreProcessing class takes the grayscale image of Source and apply threshold on it and returns the results 
+#####Database is the dummy class for saving the results
+#####TextureMod has multiple functions such as Blend(), Pattern(), KMeansAlgo(), FinalDetails(), secondMin() and firstMin()
 
 Blend(self,img,pattern) takes img and patterns and then maps the pattern on the img and blends it
 
