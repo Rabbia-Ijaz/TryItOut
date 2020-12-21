@@ -1,4 +1,4 @@
-# FYP
+## TextureMod
 
 TextureMod is the feature where the user provides a Source image and a Pattern image and the model maps the pattern on the Source image.
 
@@ -22,3 +22,8 @@ secondMin() and firstMin() are helping functions to extract the small details
 
 FinalDetails(self,srcC,result,res,res2) is responsible to apply those small details that we extracted from KMeansAlgo(), secondMin() and firstMin() on the mapped image and then get the realistic output
   
+
+
+
+## TailorMod
+TailorMod is the feature where the user provides a Source image and a Target image and the model maps the collar of the Source image on the Target Image.
