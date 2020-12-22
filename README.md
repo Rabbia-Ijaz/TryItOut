@@ -15,7 +15,9 @@ User, Data, PreProcessing, TextureMod, Result, Database
         KMeansAlgo(self,img,K) is responsible to extract the details of the original Source image so that we can apply it on the mapped image
         secondMin() and firstMin() are helping functions to extract the small details
         FinalDetails(self,srcC,result,res,res2) is responsible to apply those small details that we extracted from KMeansAlgo(), secondMin() and firstMin() on the mapped image and then get the realistic output
-  
+#### Result files
+    Texture_Mod has three folders, Source, Pattern and Result. Result folder has the final output after mapping
+
 
 ## TailorMod
 TailorMod is the feature where the user provides a Source image and a Target image and the model maps the collar of the Source image on the Target Image.
