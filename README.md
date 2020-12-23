@@ -39,3 +39,6 @@ User, Data, PreProcessing, TextureMod, Result, Database (in both files,classes a
        # checkOutliars(), getDifference() are the helping functions
        # Mapping() is the main function which is applying the source part on the collar part with the help of rotation and other helping functions.
 
+
+## Boxgen
+This file contains the code for generating a bounding box for sleeves and collars
