@@ -23,7 +23,7 @@ User, Data, PreProcessing, TextureMod, Result, Database
 TailorMod is the feature where the user provides a Source image and a Target image and the model maps the collar of the Source image on the Target Image.
 
 ### 6 classes
-User, Data, PreProcessing, TextureMod, Result, Database (in both files,classes are same but we will combine them when we will have a front-end)
+User, Data, PreProcessing, TailorMod, Result, Database (in both files,classes are same but we will combine them when we will have a front-end)
 
     #### User class is the dummy class right now and will be used when we will connect it with the front-end.
     #### Data class takes links of Source and Pattern images and with the help of trained machine learning model, it extracts the bounding boxes of collars.
