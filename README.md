@@ -17,7 +17,7 @@ User, Data, PreProcessing, TextureMod, Result, Database
        # FinalDetails(self,srcC,result,res,res2) is responsible to apply those small details that we extracted from KMeansAlgo(), secondMin() and firstMin() on the mapped image and then get the realistic output
 #### Result files
     Texture_Mod has three folders, Source, Pattern and Result. Result folder has the final output after mapping
-    https://github.com/Rabbia-Ijaz/TryItOut/issues/1  
+![alt text](https://github.com/Rabbia-Ijaz/TryItOut/issues/1) 
 
 
 ## TailorMod
