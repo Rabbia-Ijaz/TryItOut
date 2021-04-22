@@ -43,3 +43,11 @@ User, Data, PreProcessing, TailorMod, Result, Database (in both files,classes ar
 
 ## Boxgen
 This file contains the code for generating a bounding box for sleeves and collars
+![alt_text](https://user-images.githubusercontent.com/63001234/115639071-208e8900-a32d-11eb-9279-5213a0479fab.png)
+
+## GarmentTransfer
+GarmentTransfer is the feature where the user provides a Source image and a Target image and the model replicates the shirt of the Source image on the Target Image Body
+
+![alt_text](https://user-images.githubusercontent.com/63001234/115639164-5d5a8000-a32d-11eb-9130-aea1d5095261.png)
+
+
