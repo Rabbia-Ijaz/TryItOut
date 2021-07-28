@@ -51,4 +51,10 @@ GarmentTransfer is the feature where the user provides a Source image and a Targ
 
 ![alt_text](https://user-images.githubusercontent.com/63001234/115639164-5d5a8000-a32d-11eb-9130-aea1d5095261.png)
 
+## MotionTransfer
+MotionTransfer is the feature where the user provides a Source image and a Target video and the model replicates the shirt of the Source image on the Target Body in the video
+
+
+
+
 
