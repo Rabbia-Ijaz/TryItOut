@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{{url_for('static', filename = 'styling.css')}}">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;300&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="topnav">
+        <img src="{{url_for('static', filename = 'images/onlytext.png')}}" alt="Vektors Logo" width="10%">
+    </div>
+    <div class="main">
+        <h2 id="GS"> Result</h2>
+        <div class="option" style="float:none; margin-left: auto; margin-right: auto; " >
+            {% if image %}
+                <img src="{{ url_for('static', filename='tempFolder/result.jpg') }}" style = "width: 70%; height:auto;">
+            {% endif %}
+            <!-- <img src="{{url_for('static', filename = 'images/picture.png')}}" alt="texture_icon" > -->
+        </div> 
+        <a href="{{url_for('home_html')}}">
+        <div id="buttons">
+            <button id="button-filled" >Back</button> 
+        </div>
+        </a>
+     </div>
+    
+
+</body>
+</html>

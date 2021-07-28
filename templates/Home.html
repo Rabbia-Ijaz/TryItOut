@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{{url_for('static', filename = 'styling.css')}}">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;300&display=swap">
+</head>
+
+
+<body>
+    <div class="topnav">
+        <img src="{{url_for('static', filename = 'images/onlytext.png')}}" alt="Vektors Logo" width="10%">
+    </div>
+    <div class="main">
+        <a href="{{ url_for('texture_html') }}">
+        <div class="option">
+            <img src="{{url_for('static', filename = 'images/texture.png')}}" alt="texture_icon" >
+            <h3>TextureMod</h3>
+        </div>
+        </a>
+
+        <a href="{{ url_for('tailor_html') }}">    
+        <div class="option">
+            <img src="{{url_for('static', filename = 'images/tailor.png')}}" alt="texture_icon">
+            <h3>TailorMod</h3>
+        </div>  
+        </a>
+        
+        <a href="{{ url_for('gtransfer_html') }}"> 
+        <div class="option">
+            <img src="{{url_for('static', filename = 'images/shirt.png')}}" alt="texture_icon">
+            <h3>Garment Transfer</h3>
+        </div>
+        </a>
+      
+        <div class="option">
+            <img src="{{url_for('static', filename = 'images/video.png')}}" alt="texture_icon">
+            <h3>Video Transfer</h3>
+        </div>       
+     </div>
+    
+
+</body>
+</html>
