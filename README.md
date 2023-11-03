@@ -1,3 +1,5 @@
+Welcome to the TryItOut project! This is a versatile application that offers a range of innovative features designed to enhance your experience in various domains. Below, we provide an overview of the distinct features within TryItOut:
+
 ## TextureMod
 TextureMod is the feature where the user provides a Source image and a Pattern image and the model maps the pattern on the Source image.
 
